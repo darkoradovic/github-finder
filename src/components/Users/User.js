@@ -42,7 +42,7 @@ const User = ({ match }) => {
   return (
     <React.Fragment>
       <Link to="/" className="btn btn-light">
-        Back to Search
+      <i class="fas fa-angle-double-left"></i> Back to Search
       </Link>
       Hireable:{" "}
       {hireable ? (

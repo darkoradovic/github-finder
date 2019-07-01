@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* Global Styles */
+/* Global Styles dc3545 333333 f4f4f4*/
 :root {
-  --primary-color: #dc3545;
-  --dark-color: #333333;
-  --light-color: #f4f4f4;
+  --primary-color: #9966CC;
+  --dark-color: #CB4154;
+  --light-color: #91A3B0;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: black;
 }
 
 ul {
@@ -258,7 +258,7 @@ img {
 .badge-light,
 .alert-light {
   background: var(--light-color);
-  color: #333;
+  color: #fff;
 }
 
 .btn-dark,
@@ -329,11 +329,13 @@ textarea {
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 input[type='submit'],
 button {
   font: inherit;
+  border-radius: 5px;
 }
 
 table th,
@@ -369,7 +371,8 @@ table th {
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: #fff;
+  font-weight: bolder;
 }
 
 .navbar .welcome span {
